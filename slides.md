@@ -33,3 +33,18 @@ src: ./pages/level-0.md
 hide: false
 ---
 
+---
+src: ./pages/level-1.md
+hide: false
+---
+
+---
+src: ./pages/level-2.md
+hide: false
+---
+
+---
+src: ./pages/level-3.md
+hide: false
+---
+
