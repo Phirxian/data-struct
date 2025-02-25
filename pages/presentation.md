@@ -14,11 +14,11 @@ transition: slide-left
 
 # Programme
 
-- Niveau -1 : Présentation et notion de complexité
-- Niveau 0 : Tableaux et listes (dynamique vs statique)
-- Niveau 1 : Listes chainées simple, double, circulaires (push/pop/find)
+- Niveau 0 : Présentation et notion de complexité
+- Niveau 1 : Retour sur le tableaux et listes (dynamique vs statique)
+  - Listes chainées simple, double, circulaires (push/pop/find)
 - Niveau 2 : Piles et files (LIFO / FIFO) et cas d'utilisation
-- Niveau 3 : Structures de données hiérarchique (arbre binnaire, arbre avl)
+- Niveau 3 : Structures de données hiérarchiques (arbre binnaire, arbre avl, graph, parcours d'arbre)
 - Niveau 4 : Algorithme de trie et de recherche (dichotomique, quicksort, boustrophedon, ...)
 
 <br>

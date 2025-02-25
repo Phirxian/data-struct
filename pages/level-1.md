@@ -203,12 +203,12 @@ transition: slide-left
   - **Bonnus :** Écrire un CircularBuffer (Tableaux dynamique + List Circulaire) 
 - Pour chaque méthode implémenter `push_front` / `push_back` / `insert(index)` / `remove(index)`
   - Ex: `push_front(SingleLinkedList*, SLL_IntNode*)`
-- Pour chaque méthode expliqué les différents problèmes
-  - Complexité temporel : appoximation
+- Pour chaque méthode expliquer les différents problèmes
+  - Complexité temporel
   - Complexité spatial
-  - **Bonnus :** Expliqué les problemes de cache miss associé, avec schéma
+  - **Bonnus :** Expliqué les problemes de cache miss associés, avec schéma
 - Chercher des exemples de cas d'utilisation de ces structures de données
-- Petit rapport
+- Petit rapport (-2 si pas de rapport)
 
 ---
 transition: slide-left

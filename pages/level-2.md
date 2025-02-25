@@ -15,11 +15,17 @@ Cela ressemble à une file d'attente dans la vie réelle, où la personne qui ar
 | **Dequeue** | Supprimer l'élément du début de la file. |
 | **Peek**   | Voir l'élément du début sans le supprimer. |
 
-On peut implémenter un FIFO de déffirentes façon
-- Avec un buffer (gestion des reallocation potentiel)
-- Avec une list chainé
+---
+transition: slide-left
+---
+### Cas d'utilisation de la Pile
 
-Écrire un code de test de vos structure de donnée permettant de faire une FIFO
+- Gestion de l'historique de navigation dans les navigateurs web
+- Fonctionnalités "Annuler/Rétablir" dans les éditeurs de texte (2 piles)
+- Appel de fonctions et gestion de la récursion (call stack)
+- Évaluation d'expressions mathématiques (infixes)
+- Parcours de graph en profondeur (Depth-first search)
+- Analyse syntaxique : (syntaxe des programmes - parenthèses et les accolades)
 
 ---
 transition: slide-left
@@ -35,11 +41,16 @@ Cela ressemble à une pile de livres, où le livre posé en dernier est le premi
 | **Pop**   | Supprimer l'élément du sommet de la pile. |
 | **Peek**  | Voir l'élément du sommet sans le supprimer. |
 
-On peut implémenter un LIFO de différentes façons :
-- Avec un tableau (gestion des réallocations potentielles)
-- Avec une liste chainée
+---
+transition: slide-left
+---
+### Cas d'utilisation de la File
 
-Écrire un code de test de votre structure de données permettant de faire une LIFO
+- Gestion des processus dans les systèmes d'exploitation
+- Gestion des impressions
+- Recherche en largeur (BFS) (explorer les graphes niveau par niveau)
+- Gestion des appels dans les centres d'appel
+- Tampon de messages dans les systèmes de communication
 
 ---
 transition: slide-left
@@ -52,4 +63,8 @@ transition: slide-left
 |-----------------|------|------|
 | **Ordre de Traitement** | Premier entré, premier sorti | Dernier entré, premier sorti |
 | **Utilisations** | Planification des tâches, messagerie | Appels de fonctions, annulation |
-| **Implémentation** | Files | Piles |
+| **Implémentation** | File (Queue) | Piles (Stack) |
+
+On peut implémenter LIFO/FIFO de différentes façons :
+- Avec un tableau (gestion des réallocations potentielles)
+- Avec une liste chainée (problème de cache miss)

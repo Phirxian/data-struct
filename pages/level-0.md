@@ -36,12 +36,13 @@ Elle nous permet de prédire comment l'algorithme se comportera lorsque la taill
 - **Évolutivité** : Prévoir comment l'algorithme se comportera avec des données plus volumineuses.
 - **Qualité du code** : Écrire des programmes plus efficaces et maintenables.
 
-**Similariter**
-- Pour faire simple compter le nombre d'opération quand : $\lim_{n\rightarrow+\infty}f(n)$
-
 ---
 transition: fade-out
 ---
+**Similariter**
+
+- Pour faire simple compter le nombre d'opération quand : $\lim_{n\rightarrow+\infty}f(n)$
+
 **Exemple simple :**
 
 Supposons un algorithme de recherche dans une liste de n éléments.
@@ -104,7 +105,7 @@ transition: fade-out
 
 Dans la notation asymptotique, on oublie les termes constants
 
-- O(2n) = O(n) : Les constantes sont ignorées, donc multiplier par 2 ne change "pas" la complexité.
+- O(2n) = O(n) : Les constances sont ignorées, donc multiplier par 2 ne change "pas" la complexité.
 - O(3n²) = O(n²) : De même, les constantes devant les puissances sont ignorées.
 - O(n + 10) = O(n) : Les termes constants sont négligés par rapport aux termes variables.
 - O(n² + n) = O(n²) : Dans les polynômes, on ne garde que le terme dominant.
@@ -314,7 +315,7 @@ float fast_sqrt(float number) {
 }
 ```
 
-https://en.wikipedia.org/wiki/Fast_inverse_square_root
+`https://en.wikipedia.org/wiki/Fast_inverse_square_root`
 
 ---
 transition: fade-out
@@ -337,3 +338,11 @@ double pow(double base, int exponent) {
 <br>
 
 > Attention, le compilateur passe par là et fait aussi des optimisations ! (-Ofast -O3 -Og) ;)
+
+---
+transition: fade-out
+---
+
+<center>
+<img src="/snippets/diff.png" width="90%"/>
+</center>
